@@ -1,0 +1,18 @@
+.button{
+  font-family: 'Space Mono', monospace;
+  color:white;
+  background-color: var(--btn);
+  outline:none;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+
+  &:hover{
+    background-color: var(--btn-hover);
+  }
+  &:active{
+    transform:scale(0.97);
+  }
+}

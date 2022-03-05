@@ -1,0 +1,32 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // width: 80%;
+  // max-width: 35rem;
+  // margin: 0 auto;
+}
+
+.logo{
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.toggle-dark-mode-btn{
+  color:var(--lm-text);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+
+  .uilsun{
+    margin-left:0.4rem;
+  }
+}

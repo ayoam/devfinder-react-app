@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+ 
+ :root{
+  --lm-bg: #F6F8FF;
+  --lm-bg-content: #FEFEFE;
+  --lm-text: #4B6A9B;
+  --lm-text-alt: #2B3442;
+  --lm-shadow-active: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  --lm-shadow-inactive: 0px 16px 30px -10px rgba(0,0,0,0.2);
+  --lm-icon-bg: brightness(100%);
+  --btn:#0079FF;
+  --btn-hover: #60ABFF;
+
+}
+
+body.dark-mode{
+  --lm-bg: #141D2F;
+  --lm-bg-content: #1E2A47;
+  --lm-text: white;
+  --lm-text-alt: white;
+  --lm-shadow-active: 0px 4px 4px 0px rgba(0,0,0,0.25);
+  --lm-shadow-inactive: 0px 16px 30px -10px rgba(0,0,0,0.2);
+  --lm-icon-bg: brightness(1000%);
+  --btn:#0079FF;
+  --btn-hover: #60ABFF;
+}
+
+body {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--lm-bg);
+  transition: 100ms ease-in-out background-color;
+  color: var(--lm-text);
+}
+
+// code {
+//   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+//     monospace;
+// }
+
+
+@media screen and (max-width:630px){
+  html{
+    font-size: 10px;
+  }
+}
